@@ -1,0 +1,321 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.joachim_duquesne",
+                "state": "home",
+                "attributes": {
+                    "editable": true,
+                    "id": "joachim_duquesne",
+                    "latitude": 50.7017559,
+                    "longitude": 4.4217895,
+                    "gps_accuracy": 23,
+                    "source": "person.joachim_duquesne",
+                    "user_id": "d47f5e2982fe42c0b2e24007f5f29d31",
+                    "friendly_name": "Joachim Duquesne"
+                },
+                "last_changed": "2021-02-08T20:38:20.990566+00:00",
+                "last_updated": "2021-02-08T20:38:20.990566+00:00",
+                "context": {
+                    "id": "4a3a6316ea7f141cd85fe83fa4fc75e8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "timer.temperature_change_timer",
+                "state": "idle",
+                "attributes": {
+                    "duration": "1:00:00",
+                    "editable": true,
+                    "friendly_name": "Temperature_change_timer"
+                },
+                "last_changed": "2021-02-08T20:38:21.359893+00:00",
+                "last_updated": "2021-02-08T20:38:21.359893+00:00",
+                "context": {
+                    "id": "622d0fb72dd3ea6455b5efa57f6ad9a4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_datetime.day_start_time",
+                "state": "06:30:00",
+                "attributes": {
+                    "editable": true,
+                    "has_date": false,
+                    "has_time": true,
+                    "hour": 6,
+                    "minute": 30,
+                    "second": 0,
+                    "timestamp": 23400,
+                    "friendly_name": "Day_start_time"
+                },
+                "last_changed": "2021-02-08T20:38:21.360068+00:00",
+                "last_updated": "2021-02-08T20:38:21.360068+00:00",
+                "context": {
+                    "id": "430a5419f6f403ccd7fcdb574e729ce2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_datetime.night_start_time",
+                "state": "19:45:00",
+                "attributes": {
+                    "editable": true,
+                    "has_date": false,
+                    "has_time": true,
+                    "hour": 19,
+                    "minute": 45,
+                    "second": 0,
+                    "timestamp": 71100,
+                    "friendly_name": "Night_start_time"
+                },
+                "last_changed": "2021-02-08T20:38:21.360176+00:00",
+                "last_updated": "2021-02-08T20:38:21.360176+00:00",
+                "context": {
+                    "id": "10070563173e18743416eef57db8d6d3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.day_temperature",
+                "state": "23.5",
+                "attributes": {
+                    "initial": null,
+                    "editable": true,
+                    "min": 20.0,
+                    "max": 25.0,
+                    "step": 0.5,
+                    "mode": "slider",
+                    "unit_of_measurement": "C",
+                    "friendly_name": "Day_temperature"
+                },
+                "last_changed": "2021-02-08T20:38:21.360434+00:00",
+                "last_updated": "2021-02-08T20:38:21.360434+00:00",
+                "context": {
+                    "id": "421435d61d02df71d68ccd2b56d0a025",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_number.night_temperature",
+                "state": "21.0",
+                "attributes": {
+                    "initial": null,
+                    "editable": true,
+                    "min": 18.0,
+                    "max": 23.0,
+                    "step": 0.5,
+                    "mode": "slider",
+                    "unit_of_measurement": "C",
+                    "friendly_name": "Night_temperature"
+                },
+                "last_changed": "2021-02-08T20:38:21.360505+00:00",
+                "last_updated": "2021-02-08T20:38:21.360505+00:00",
+                "context": {
+                    "id": "92b0bc2d644548df8f7f997bb553d7c5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "climate.home",
+                "state": "heat",
+                "attributes": {
+                    "hvac_modes": [
+                        "heat",
+                        "off"
+                    ],
+                    "min_temp": 19.0,
+                    "max_temp": 25.0,
+                    "target_temp_step": 0.5,
+                    "preset_modes": [
+                        "none",
+                        "away"
+                    ],
+                    "current_temperature": null,
+                    "temperature": 23.5,
+                    "hvac_action": "idle",
+                    "preset_mode": "none",
+                    "friendly_name": "Home",
+                    "supported_features": 17
+                },
+                "last_changed": "2021-02-08T20:38:21.370457+00:00",
+                "last_updated": "2021-02-08T20:38:21.370457+00:00",
+                "context": {
+                    "id": "cfb6919d88e19e8fb1231af03766dc4e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.new_automation",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-02-08T20:38:00.002263+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1612790814426",
+                    "friendly_name": "New Automation"
+                },
+                "last_changed": "2021-02-08T20:38:21.426439+00:00",
+                "last_updated": "2021-02-08T20:38:21.426439+00:00",
+                "context": {
+                    "id": "b8c894256cb162a50fa0434fd4960e38",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.temperature_boost",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-02-08T20:32:10.014521+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1612815410378",
+                    "friendly_name": "Temperature boost"
+                },
+                "last_changed": "2021-02-08T20:38:21.426560+00:00",
+                "last_updated": "2021-02-08T20:38:21.426560+00:00",
+                "context": {
+                    "id": "00ac20703b127c612f7f455eedc65ddf",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.pixel_2",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 50.7017559,
+                    "longitude": 4.4217895,
+                    "gps_accuracy": 23,
+                    "altitude": 153.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 1,
+                    "friendly_name": "Pixel 2"
+                },
+                "last_changed": "2021-02-08T20:38:21.502957+00:00",
+                "last_updated": "2021-02-08T20:38:21.502957+00:00",
+                "context": {
+                    "id": "6ecbe4cf6eca9d2c7045f3d8531b6428",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.home_heater",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Home Heater"
+                },
+                "last_changed": "2021-02-08T20:38:21.509040+00:00",
+                "last_updated": "2021-02-08T20:38:21.509040+00:00",
+                "context": {
+                    "id": "d77e4dd6d1546dc402cd92187b3e3183",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T20:38:21.510211+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.change_target_temperature",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-02-08T12:01:00.002440+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1612785100402",
+                    "friendly_name": "Change target temperature"
+                },
+                "last_changed": "2021-02-08T11:51:40.460327+00:00",
+                "last_updated": "2021-02-08T12:01:00.006569+00:00",
+                "context": {
+                    "id": "11ea7d79e70853d75c8d40fc6620a08c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T12:38:30.161221+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.home_heater_switch",
+                "state": "off",
+                "attributes": {
+                    "friendly_name": "Home Heater"
+                },
+                "last_changed": "2021-02-08T11:00:59.887974+00:00",
+                "last_updated": "2021-02-08T11:00:59.887974+00:00",
+                "context": {
+                    "id": "462bec610a2013580894919a872f21ee",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T11:03:37.970040+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.temperature_schedule",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-02-08T13:11:05.001628+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1612789810318",
+                    "friendly_name": "Temperature Schedule"
+                },
+                "last_changed": "2021-02-08T13:11:12.964032+00:00",
+                "last_updated": "2021-02-08T13:11:12.964032+00:00",
+                "context": {
+                    "id": "78d6d62b1612ad92978ba7a2276364dd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-08T13:11:39.725126+00:00"
+        }
+    ]
+}

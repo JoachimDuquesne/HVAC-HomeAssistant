@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Joachim Duquesne",
+                "user_id": "d47f5e2982fe42c0b2e24007f5f29d31",
+                "device_trackers": [
+                    "device_tracker.pixel_2"
+                ],
+                "id": "joachim_duquesne"
+            }
+        ]
+    }
+}

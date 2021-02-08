@@ -1,0 +1,157 @@
+{
+    "version": 1,
+    "key": "mobile_app",
+    "data": {
+        "binary_sensor": {
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_is_charging": {
+                "unique_id": "is_charging",
+                "state": false,
+                "type": "binary_sensor",
+                "icon": "mdi:power-plug-off",
+                "attributes": {},
+                "name": "Is Charging",
+                "device_class": "plug",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            }
+        },
+        "deleted_ids": [],
+        "sensor": {
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_battery_level": {
+                "unique_id": "battery_level",
+                "state": 22,
+                "type": "sensor",
+                "icon": "mdi:battery-20",
+                "attributes": {},
+                "name": "Battery Level",
+                "device_class": "battery",
+                "unit_of_measurement": "%",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_geocoded_location": {
+                "unique_id": "geocoded_location",
+                "state": "Dr\u00e8ve Richelle 256, 1410 Waterloo, Belgium",
+                "type": "sensor",
+                "icon": "mdi:map",
+                "attributes": {
+                    "Administrative Area": "Wallonie",
+                    "Country": "Belgium",
+                    "ISO Country Code": "BE",
+                    "Latitude": 50.70179,
+                    "Locality": "Waterloo",
+                    "Longitude": 4.421823,
+                    "Postal Code": "1410",
+                    "Sub Administrative Area": "Brabant Wallon",
+                    "Sub Locality": "null",
+                    "Sub Thoroughfare": "256",
+                    "Thoroughfare": "Dr\u00e8ve Richelle"
+                },
+                "name": "Geocoded Location",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_light_sensor": {
+                "unique_id": "light_sensor",
+                "state": "0",
+                "type": "sensor",
+                "icon": "mdi:brightness-5",
+                "attributes": {},
+                "name": "Light Sensor",
+                "device_class": "illuminance",
+                "unit_of_measurement": "lx",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_wifi_connection": {
+                "unique_id": "wifi_connection",
+                "state": "metabaron2",
+                "type": "sensor",
+                "icon": "mdi:wifi",
+                "attributes": {
+                    "is_hidden": false
+                },
+                "name": "WiFi Connection",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_pressure_sensor": {
+                "unique_id": "pressure_sensor",
+                "state": "984.3",
+                "type": "sensor",
+                "icon": "mdi:gauge",
+                "attributes": {},
+                "name": "Pressure Sensor",
+                "device_class": "pressure",
+                "unit_of_measurement": "hPa",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_proximity_sensor": {
+                "unique_id": "proximity_sensor",
+                "state": "far",
+                "type": "sensor",
+                "icon": "mdi:leak",
+                "attributes": {},
+                "name": "Proximity Sensor",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_battery_state": {
+                "unique_id": "battery_state",
+                "state": "discharging",
+                "type": "sensor",
+                "icon": "mdi:battery-minus",
+                "attributes": {},
+                "name": "Battery State",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_charger_type": {
+                "unique_id": "charger_type",
+                "state": "none",
+                "type": "sensor",
+                "icon": "mdi:battery",
+                "attributes": {},
+                "name": "Charger Type",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_audio_sensor": {
+                "unique_id": "audio_sensor",
+                "state": "silent",
+                "type": "sensor",
+                "icon": "mdi:volume-off",
+                "attributes": {},
+                "name": "Ringer Mode",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_dnd_sensor": {
+                "unique_id": "dnd_sensor",
+                "state": "priority_only",
+                "type": "sensor",
+                "icon": "mdi:do-not-disturb",
+                "attributes": {},
+                "name": "Do Not Disturb Sensor",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            },
+            "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_next_alarm": {
+                "unique_id": "next_alarm",
+                "state": "2021-02-09T05:50:00.000Z",
+                "type": "sensor",
+                "icon": "mdi:alarm",
+                "attributes": {
+                    "Local Time": "Tue Feb 09 06:50:00 GMT+01:00 2021",
+                    "Package": "jp.tanyu.SmartAlarm",
+                    "Time in Milliseconds": 1612849800000
+                },
+                "name": "Next Alarm",
+                "device_class": "timestamp",
+                "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                "added": true
+            }
+        }
+    }
+}

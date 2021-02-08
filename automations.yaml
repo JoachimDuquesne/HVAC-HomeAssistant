@@ -1,0 +1,31 @@
+- id: '1612790814426'
+  alias: New Automation
+  initial_state: 'on'
+  trigger:
+    platform: time_pattern
+    seconds: /5
+  condition: "{{ is_state('timer.temperature_change_timer','idle') }}"
+  action:
+    service: climate.set_temperature
+    data_template:
+      entity_id: climate.home
+      temperature: >-
+        {% if now().hour*60*60+now().minute*60+now().second < state_attr('input_datetime.day_start_time','timestamp') %}
+          {{ states('input_number.night_temperature') }}
+        {% elif now().hour*60*60+now().minute*60+now().second < state_attr('input_datetime.night_start_time','timestamp') %}
+          {{ states('input_number.day_temperature') }}
+        {% else %}
+          {{ states('input_number.night_temperature') }}
+        {% endif %}
+        
+- id: '1612815410378'
+  alias: Temperature boost
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: climate.home
+    attribute: temperature
+  action:
+  - service: timer.start
+    entity_id: timer.temperature_change_timer
+  mode: single

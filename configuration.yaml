@@ -1,0 +1,75 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+
+
+climate:
+  - platform: generic_thermostat
+    name: Home
+    heater: switch.home_heater
+    target_sensor: sensor.home_temperature
+    min_temp: 19
+    max_temp: 25
+    target_temp: 23.5
+    cold_tolerance: 1
+    hot_tolerance: 1
+    min_cycle_duration:
+      minutes: 2
+    keep_alive:
+      seconds: 30
+    initial_hvac_mode: "heat"
+    away_temp: 16
+    precision: 0.5
+    
+switch:
+  - platform: mqtt
+    unique_id: home_heater
+    name: "Home Heater"
+    state_topic:   "mygateway1-out/1/2/1/0/2"    # Subscribe for state changes
+    command_topic: "mygateway1-in/1/2/1/0/2"     # Publish for state changes
+    payload_on: "1"
+    payload_off: "0"
+    state_on: "1"
+    state_off: "0"
+    optimistic: false
+    qos: 0
+    retain: false
+    
+    
+sensor:
+  - platform: mqtt
+    name: "Home Temperature"
+    unique_id: home_temperature
+    state_topic: "mygateway1-out/1/1/1/0/0"      # Subscribe for actual temperature
+    unit_of_measurement: "°C"
+
+    
+    
+binary_sensor:
+  - platform: mqtt
+    name: "Furnace Burner"
+    unique_id: "Furnace_burner_status"
+    payload_on:  "1"
+    payload_off: "0"
+    state_topic: "mygateway1-out/2/3/1/0/2" 
+  - platform: mqtt
+    name: "Furnace Heater"
+    unique_id: "Furnace_heater_status"
+    payload_on:  "1"
+    payload_off: "0"
+    state_topic: "mygateway1-out/2/4/1/0/2"
+  - platform: mqtt
+    name: "Furnace Hot Water"
+    unique_id: "Furnace_hot_water_status"
+    payload_on:  "1"
+    payload_off: "0"
+    state_topic: "mygateway1-out/2/5/1/0/2"
+    
+

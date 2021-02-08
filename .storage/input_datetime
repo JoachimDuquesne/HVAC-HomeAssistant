@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "key": "input_datetime",
+    "data": {
+        "items": [
+            {
+                "has_time": true,
+                "has_date": false,
+                "name": "Day_start_time",
+                "id": "day_start_time"
+            },
+            {
+                "has_time": true,
+                "has_date": false,
+                "name": "Night_start_time",
+                "id": "night_start_time"
+            }
+        ]
+    }
+}

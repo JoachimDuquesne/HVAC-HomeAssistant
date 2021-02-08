@@ -1,0 +1,52 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "b3b758120a5eda32a38755fe645beda6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "09915278ac4c3d0025d09c53ebac9e17",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8a457230d314693227f324ffb5961c07"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "1d2be8bfe57fc2bf"
+                    ]
+                ],
+                "manufacturer": "Google",
+                "model": "Pixel 2",
+                "name": "Pixel 2",
+                "sw_version": "30",
+                "entry_type": null,
+                "id": "4030932f6c7733c25f5b025289301511",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

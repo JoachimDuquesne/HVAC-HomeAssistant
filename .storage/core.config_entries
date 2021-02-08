@@ -1,0 +1,87 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "b3b758120a5eda32a38755fe645beda6",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "da2b2e43ee42ca53e7102bac46633190",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "127.0.0.1",
+                "data": {
+                    "port": 1883,
+                    "discovery": true,
+                    "broker": "127.0.0.1"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "5de8c05dbadcd67b4301b622ab7f8982",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "ignore",
+                "connection_class": "local_push",
+                "unique_id": "cast"
+            },
+            {
+                "entry_id": "8a457230d314693227f324ffb5961c07",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Pixel 2",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.1.1-full (555)",
+                    "device_name": "Pixel 2",
+                    "manufacturer": "Google",
+                    "model": "Pixel 2",
+                    "os_name": "Android",
+                    "os_version": "30",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "fm5i4gMpyRM:APA91bHFYwksZ7v-MzxPmVRwIA-k4pHMCRZSi08rrZSsnV0_0dNRNzxETnotDyqgd94YA2CPrVes_boVP9Q9pXB5UyZxIzZRGXsRmSMFGw8XoNoAH0QMClE7jqcfgbEYLXQkRAKZtJV1"
+                    },
+                    "device_id": "1d2be8bfe57fc2bf",
+                    "webhook_id": "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc",
+                    "user_id": "d47f5e2982fe42c0b2e24007f5f29d31"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.homeassistant.companion.android-1d2be8bfe57fc2bf"
+            }
+        ]
+    }
+}

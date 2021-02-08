@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "key": "input_number",
+    "data": {
+        "items": [
+            {
+                "min": 20.0,
+                "max": 25.0,
+                "name": "Day_temperature",
+                "step": 0.5,
+                "unit_of_measurement": "C",
+                "mode": "slider",
+                "id": "day_temperature"
+            },
+            {
+                "min": 18.0,
+                "max": 23.0,
+                "name": "Night_temperature",
+                "step": 0.5,
+                "unit_of_measurement": "C",
+                "mode": "slider",
+                "id": "night_temperature"
+            }
+        ]
+    }
+}

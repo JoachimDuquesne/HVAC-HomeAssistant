@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "key": "timer",
+    "data": {
+        "items": [
+            {
+                "name": "Temperature_change_timer",
+                "duration": "1:00:00",
+                "id": "temperature_change_timer"
+            }
+        ]
+    }
+}
