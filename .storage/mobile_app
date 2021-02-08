@@ -19,7 +19,7 @@
         "sensor": {
             "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_battery_level": {
                 "unique_id": "battery_level",
-                "state": 22,
+                "state": 20,
                 "type": "sensor",
                 "icon": "mdi:battery-20",
                 "attributes": {},
@@ -77,7 +77,7 @@
             },
             "8d515dcc1d9650399f986d8f9fe744cf1fbc2542d29e0ffa6c180a38c8ab10bc_pressure_sensor": {
                 "unique_id": "pressure_sensor",
-                "state": "984.3",
+                "state": "984.4",
                 "type": "sensor",
                 "icon": "mdi:gauge",
                 "attributes": {},
